@@ -1,0 +1,29 @@
+@media (min-width: 1024px) and (max-width: 1440px) {
+    main {
+        .titulo-h2{
+        font-size: 20px;
+        }
+    }
+    .gimnasio-2{
+        div{
+            img{
+                width: 250px;
+            }
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .horarios{
+        font-size: 30px;
+        img{
+            width: 350px;
+        }
+    }
+    .contactos{
+        font-size: 10px;
+    }
+    .sobre-mi{
+        font-size: 15px;
+    }
+}

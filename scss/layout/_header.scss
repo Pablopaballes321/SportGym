@@ -1,0 +1,26 @@
+header{
+    h1{
+        background-color: $color-1;
+        padding: 5px;
+        a{
+            text-decoration: none;
+            color: $color-2;
+        }
+    }
+    nav{
+        background-color: $color-2;
+        ul{
+            text-align: right;
+            padding: 16px;
+            font-size: 16px;
+        }
+        li{
+            display: inline;
+            padding: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: $color-1;
+        }
+    }
+}

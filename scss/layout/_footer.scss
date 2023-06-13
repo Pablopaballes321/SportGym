@@ -1,0 +1,16 @@
+footer{
+    background-color: $color-2;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    color: $color-1;
+    font-size: 35px;
+    align-items: center;
+}
+
+
+.logos{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}

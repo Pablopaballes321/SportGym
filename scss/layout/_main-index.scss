@@ -1,0 +1,10 @@
+main{
+    @include flex;
+    background: linear-gradient(to bottom, $color-2, $color-1, $color-2);
+    img{
+        width: 410px;
+    }
+    .titulo-h2{
+        font-size: 35px;
+    }
+}

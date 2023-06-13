@@ -1,0 +1,10 @@
+.horarios{
+    display: flex;
+    padding: 80px;
+    background: linear-gradient(to left, $color-2, $color-1, $color-2);
+    font-size: 40px;
+    img{
+        margin-right: 40px;
+        width: 500px;
+    }
+}

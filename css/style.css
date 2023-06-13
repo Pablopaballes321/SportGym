@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+header h1 {
+  background-color: yellow;
+  padding: 5px; }
+  header h1 a {
+    text-decoration: none;
+    color: black; }
+
+header nav {
+  background-color: black; }
+  header nav ul {
+    text-align: right;
+    padding: 16px;
+    font-size: 16px; }
+  header nav li {
+    display: inline;
+    padding: 20px; }
+  header nav a {
+    text-decoration: none;
+    color: yellow; }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(to bottom, black, yellow, black); }
+  main img {
+    width: 410px; }
+  main .titulo-h2 {
+    font-size: 35px; }
+
+.gimnasio-2 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .gimnasio-2 div img {
+    width: 450px; }
+  .gimnasio-2 p {
+    text-align: center;
+    font-size: 20px; }
+
+.horarios {
+  display: flex;
+  padding: 80px;
+  background: linear-gradient(to left, black, yellow, black);
+  font-size: 40px; }
+  .horarios img {
+    margin-right: 40px;
+    width: 500px; }
+
+.contactos {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 20px; }
+
+.sobre-mi {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  font-size: 17px; }
+  .sobre-mi img {
+    width: 400px; }
+  .sobre-mi p {
+    margin: 10px; }
+
+footer {
+  background-color: black;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-size: 35px;
+  align-items: center; }
+
+.logos {
+  position: fixed;
+  bottom: 5px;
+  right: 10px; }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  main .titulo-h2 {
+    font-size: 20px; }
+  .gimnasio-2 div img {
+    width: 250px; }
+  .gimnasio-2 p {
+    font-size: 15px; }
+  .horarios {
+    font-size: 30px; }
+    .horarios img {
+      width: 350px; }
+  .contactos {
+    font-size: 10px; }
+  .sobre-mi {
+    font-size: 15px; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  main .titulo-h2 {
+    font-size: 10px; }
+  .gimnasio-2 div img {
+    width: 200px; }
+  .gimnasio-2 p {
+    font-size: 12px; }
+  .horarios {
+    font-size: 23px; }
+    .horarios img {
+      width: 240px; }
+  .contactos {
+    flex-direction: column;
+    font-size: 12px; }
+    .contactos .datos {
+      padding: 10px; }
+    .contactos .formulario-contacto {
+      padding: 9px; }
+  .sobre-mi {
+    font-size: 10px; }
+    .sobre-mi img {
+      width: 250px; } }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  main {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    main img {
+      width: 180px; }
+    main .titulo-h2 {
+      font-size: 8px; }
+  header nav ul {
+    font-size: 10px; }
+  .gimnasio-2 {
+    padding-top: 125px;
+    padding-bottom: 125px; }
+    .gimnasio-2 div img {
+      width: 140px; }
+    .gimnasio-2 p {
+      font-size: 9px; }
+  .horarios {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 11px; }
+    .horarios img {
+      width: 135px; }
+  .contactos {
+    flex-direction: column;
+    font-size: 10px; }
+    .contactos .datos {
+      padding: 10px; }
+    .contactos .formulario-contacto {
+      padding: 10px; }
+  .sobre-mi {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 8px; }
+    .sobre-mi img {
+      width: 200px; } }
+
+@media (min-width: 375px) and (max-width: 425px) {
+  main {
+    padding-top: 90px;
+    padding-bottom: 90px; }
+    main img {
+      width: 140px; }
+    main .titulo-h2 {
+      font-size: 7px; }
+  header nav ul {
+    font-size: 8px; }
+  .gimnasio-2 {
+    padding-top: 140px;
+    padding-bottom: 140px; }
+    .gimnasio-2 div img {
+      width: 100px; }
+    .gimnasio-2 p {
+      font-size: 8px; }
+  .horarios {
+    padding-top: 145px;
+    padding-bottom: 145px;
+    font-size: 8px; }
+    .horarios img {
+      width: 105px; }
+  .contactos {
+    flex-direction: column;
+    font-size: 9px; }
+    .contactos .datos {
+      padding: 10px; }
+    .contactos .formulario-contacto {
+      display: none; }
+  .sobre-mi {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 5px; }
+    .sobre-mi img {
+      width: 130px; } }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  main {
+    padding-top: 110px;
+    padding-bottom: 110px; }
+    main img {
+      width: 120px; }
+    main .titulo-h2 {
+      font-size: 6px; }
+  header nav ul {
+    font-size: 5px; }
+  footer {
+    font-size: 28px; }
+  .gimnasio-2 {
+    padding-top: 160px;
+    padding-bottom: 160px; }
+    .gimnasio-2 div img {
+      width: 90px; }
+    .gimnasio-2 p {
+      font-size: 6px; }
+  .horarios {
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-size: 10px; }
+    .horarios img {
+      width: 105px; }
+  .contactos {
+    flex-direction: column;
+    font-size: 9px; }
+    .contactos .datos {
+      padding: 10px; }
+    .contactos .formulario-contacto {
+      display: none; }
+  .sobre-mi {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 5px; }
+    .sobre-mi img {
+      width: 135px; } }
